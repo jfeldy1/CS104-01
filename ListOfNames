@@ -1,0 +1,23 @@
+Python 3.7.1 (v3.7.1:260ec2c36a, Oct 20 2018, 00:48:40) 
+[GCC 4.2.1 (Apple Inc. build 5666) (dot 3)] on darwin
+Type "help", "copyright", "credits" or "license()" for more information.
+>>> names = ["Sam" , "Mikey" , "Parker" , "Andrew" , "Tyler" , "Keegan" , "Joe" , "Bob" , "Dylan" , "Zach"]
+>>> n1 = input("enter first name")
+enter first name
+>>> n2 = input("enter next name")
+enter next name
+>>> names.append(n1)
+>>> names.append(n2)
+>>> print(names[0])
+Sam
+>>> print(names[1])
+Mikey
+>>> print(names[7])
+Bob
+>>> search = input("enter search name:")
+enter search name:
+>>> if search in names:
+	print(search , "was found")
+else:
+	print(search , "was not found")
+	
